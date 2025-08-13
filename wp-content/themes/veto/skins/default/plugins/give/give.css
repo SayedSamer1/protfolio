@@ -1,0 +1,52 @@
+/* Give styles
+----------------------------------------------------------------- */
+/* Give Grid */
+.give-wrap .give-grid {
+  grid-gap: var(--theme-var-grid_gap);
+  margin-bottom: var(--theme-var-grid_gap);
+}
+
+.give-wrap .give-card {
+  -webkit-border-radius: var(--theme-var-global-border-radius-small, 0);
+  -ms-border-radius: var(--theme-var-global-border-radius-small, 0);
+  border-radius: var(--theme-var-global-border-radius-small, 0);
+  overflow: hidden;
+}
+
+.give-form-grid-content > h3 {
+  font-family: var(--theme-font-h4_font-family);
+  font-size: var(--theme-font-h4_font-size) !important;
+  line-height: var(--theme-font-h4_line-height);
+  font-weight: var(--theme-font-h4_font-weight) !important;
+  font-style: var(--theme-font-h4_font-style);
+  text-decoration: var(--theme-font-h4_text-decoration);
+  text-transform: var(--theme-font-h4_text-transform);
+  letter-spacing: var(--theme-font-h4_letter-spacing);
+}
+.give-form-grid-content > p {
+  font-weight: inherit;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Give Campaign */
+.givewp-donation-form-link,
+.givewp-donation-form-modal__open {
+  font-family: var(--theme-font-button_font-family);
+  font-size: var(--theme-font-button_font-size);
+  font-weight: var(--theme-font-button_font-weight) !important;
+  -webkit-border-radius: var(--theme-font-button_border-radius);
+  -ms-border-radius: var(--theme-font-button_border-radius);
+  border-radius: var(--theme-font-button_border-radius);
+}
+
+.givewp-campaign-donors-block .givewp-campaign-donors-block__donor,
+.givewp-campaign-donors-block .givewp-campaign-donors-block__empty-state,
+.givewp-campaign-donations-block .givewp-campaign-donations-block__donation,
+.givewp-campaign-donations-block .givewp-campaign-donations-block__empty-state {
+  -webkit-border-radius: var(--theme-var-global-border-radius-small, 0);
+  -ms-border-radius: var(--theme-var-global-border-radius-small, 0);
+  border-radius: var(--theme-var-global-border-radius-small, 0);
+}
+
+/*# sourceMappingURL=give.css.map */
